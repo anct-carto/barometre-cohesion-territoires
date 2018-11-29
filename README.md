@@ -1,2 +1,2 @@
 # ba-coh-terr-v2
-Baromètre de la cohésion des territoires
+Nouvelle version du Baromètre de la cohésion des territoires
