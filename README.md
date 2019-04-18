@@ -1,3 +1,4 @@
-# ba-coh-terr-v2
-Nouvelle version du Baromètre de la cohésion des territoires
- https://cget-carto.github.io/ba-coh-terr-v2/
+# Baromètre de la cohésion des territoires
+## Version en cours de développement
+
+ https://cget-carto.github.io/barometre_cohesion_territoires/
