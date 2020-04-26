@@ -1,0 +1,48 @@
+A FAIRE
+------------------------------
+
+
+
+Sur GRAPHIQUE
+
+Histogramme
+    - coin rectangle arrondi
+
+Bouton année
+    - changement de couleur sur clic de l'année (couleur barometre)
+
+Carte
+    - graphique carte
+    - graphique boite à moustache
+
+
+
+Sur ARCHITECTURE
+- installer environnement (voir Tuto)
+- revoir Cours VueSchool.io
+- créer arcitecture scss
+- 6 facteurs de cohésion vignette -> composants
+- créer les routes vers les 6 composants
+
+
+
+
+
+
+
+
+
+OK
+------------------------------
+
+Sur GRAPHIQUE
+
+
+
+Sur ARCHITECTURE
+
+Histogramme
+    - création du graphique (axes, appel des données json)
+    - ajout du tooltip
+    - ajout des unités
+    - ajout des interactions au survol et clic bouton année
