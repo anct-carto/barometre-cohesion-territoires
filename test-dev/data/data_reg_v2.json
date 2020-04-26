@@ -1,0 +1,128 @@
+[
+  {
+    "codreg": 94,
+    "libreg": "COR",
+    "libreg_long": "Corse",
+    "value2013": 24.2,
+    "value2017": 30.8
+  },
+  {
+    "codreg": 93,
+    "libreg": "PAC",
+    "libreg_long": "Provence-Alpes-Côte d'Azur",
+    "value2013": 38.5,
+    "value2017": 42.6
+  },
+  {
+    "codreg": 84,
+    "libreg": "ARA",
+    "libreg_long": "Auvergne-Rhône-Alpes",
+    "value2013": 39.1,
+    "value2017": 41.7
+  },
+  {
+    "codreg": 76,
+    "libreg": "OCC",
+    "libreg_long": "Occitanie",
+    "value2013": 40.3,
+    "value2017": 43.7
+  },
+  {
+    "codreg": 75,
+    "libreg": "NAQ",
+    "libreg_long": "Nouvelle-Aquitaine",
+    "value2013": 40,
+    "value2017": 44.4
+  },
+  {
+    "codreg": 53,
+    "libreg": "BRE",
+    "libreg_long": "Bretagne",
+    "value2013": 39.6,
+    "value2017": 44.7
+  },
+  {
+    "codreg": 52,
+    "libreg": "PDL",
+    "libreg_long": "Pays-de-la-Loire",
+    "value2013": 40.6,
+    "value2017": 45.8
+  },
+  {
+    "codreg": 44,
+    "libreg": "GES",
+    "libreg_long": "Grand-Est",
+    "value2013": 41.3,
+    "value2017": 45.4
+  },
+  {
+    "codreg": 32,
+    "libreg": "HDF",
+    "libreg_long": "Hauts-de-France",
+    "value2013": 45.8,
+    "value2017": 47.3
+  },
+  {
+    "codreg": 28,
+    "libreg": "NOR",
+    "libreg_long": "Normandie",
+    "value2013": 42.6,
+    "value2017": 46.2
+  },
+  {
+    "codreg": 27,
+    "libreg": "BFC",
+    "libreg_long": "Bourgogne-Franche-Comté",
+    "value2013": 42.3,
+    "value2017": 44.4
+  },
+  {
+    "codreg": 24,
+    "libreg": "CVL",
+    "libreg_long": "Centre-Val de Loire",
+    "value2013": 40.5,
+    "value2017": 46.8
+  },
+  {
+    "codreg": 11,
+    "libreg": "IDF",
+    "libreg_long": "Île-de-France",
+    "value2013": 40.1,
+    "value2017": 42.6
+  },
+  {
+    "codreg": "06",
+    "libreg": "MYT",
+    "libreg_long": "Mayotte",
+    "value2013": "",
+    "value2017": ""
+  },
+  {
+    "codreg": "04",
+    "libreg": "REU",
+    "libreg_long": "La Réunion",
+    "value2013": 54.2,
+    "value2017": 54.6
+  },
+  {
+    "codreg": "03",
+    "libreg": "GYF",
+    "libreg_long": "Guyane française",
+    "value2013": 33.1,
+    "value2017": 33.2
+  },
+  {
+    "codreg": "02",
+    "libreg": "MTQ",
+    "libreg_long": "Martinique",
+    "value2013": 52.5,
+    "value2017": 50.2
+  },
+  {
+    "codreg": "01",
+    "libreg": "GLP",
+    "libreg_long": "Guadeloupe",
+    "value2013": 55.5,
+    "value2017": 56.5
+  }
+]

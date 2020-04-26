@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet de carte interactive</title>
+    <link rel="stylesheet" type="text/css" href="style/basics/base.css">
+    <link rel="stylesheet" type="text/css" href="style/basics/layout.css">
+    <link rel="stylesheet" type="text/css" href="style/components/barChart.css"> 
+   <!-- <link rel="stylesheet" type="text/css" href="style/global.css"> -->
+  </head>
+  <body>
+   
+
+
+    <div id="c-barchart">
+      <div class= "button" id="h-barchart">
+        <ul class="choose-year">
+          <li>
+          <input id="year0" type="radio" name="year" value="A"> 
+          <label class= "button-value" for="year0"></label>
+        </li>
+          
+        <li>
+          <input id="year1" type="radio" name="year" value="B" checked>
+          <label class= "button-value" for="year1"></label>
+        </li>
+        </ul>
+        <p>Choisissez une année</p>
+      </div>
+
+      <div id="t-barchart"></div>
+
+      <div id="extra-barchart">
+      <p>Evolution des écarts entre les régions extrêmes</p>
+      <div id="extra-barchart-value"></div>
+      </div>
+  </div>
+
+    <div id="tooltip-barchart" class="tooltip"></div>
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.1/d3.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.js"></script>
+    <script src ="js/barChart.js"></script>
+
+    
+</body>
+</html>
+
