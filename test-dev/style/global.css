@@ -1,9 +1,179 @@
+/* JOST* */
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-100-Hairline.otf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-200-Thin.otf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-300-Light.otf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-400-Book.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-500-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-600-Semi.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-700-Bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-800-Hevy.otf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-900-Black.otf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-100-HairlineItalic.otf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-200-ThinItalic.otf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-300-LightItalic.otf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-400-BookItalic.otf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-500-MediumItalic.otf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-600-SemiItalic.otf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-700-BoldItalic.otf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-800-HevyItalic.otf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost-900-BlackItalic.otf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Jost";
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+}
+
 ul {
   padding: 0;
   margin: 0;
 }
 
 p {
+  padding: 0;
   margin: 0;
 }
 
@@ -11,13 +181,13 @@ hr {
   margin: 0;
 }
 
+body {
+  font-size: 1.6rem;
+}
+
 .button {
   text-align: center;
   text-transform: uppercase;
-}
-
-.button p {
-  font-size: 0.7em;
 }
 
 .button ul {
@@ -47,7 +217,7 @@ hr {
 .button ul li label {
   display: block;
   height: 100%;
-  font-size: 0.7em;
+  font-size: 1.4rem;
   cursor: pointer;
 }
 
@@ -81,7 +251,7 @@ hr {
 
 #t-barchart {
   max-height: 638px;
-  min-height: 352px;
+  min-height: 452px;
   min-width: inherit;
   max-width: inherit;
   height: 70vh;
@@ -89,9 +259,13 @@ hr {
   position: relative;
 }
 
+#t-barchart .axis {
+  font-size: 1.4rem;
+}
+
 #tooltip-barchart span {
   text-transform: uppercase;
-  font-size: 0.75em;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -103,11 +277,11 @@ hr {
   display: flex;
   justify-content: space-between;
   max-width: 150px;
-  font-size: 0.9em;
+  font-size: 1.4rem;
 }
 
 .label-axis {
-  font-size: 0.8em;
+  font-size: 1.4rem;
 }
 
 #extra-barchart {
@@ -120,6 +294,48 @@ hr {
 }
 
 #extra-barchart #extra-barchart-value {
-  font-size: 2em;
+  font-size: 3rem;
+}
+
+#c-cohesion-factor {
+  display: grid;
+  justify-items: stretch;
+  column-gap: 20px;
+  row-gap: 15px;
+  max-width: 1600px;
+}
+
+@media (min-width: 576px) {
+  #c-cohesion-factor {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  #c-cohesion-factor {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  #c-cohesion-factor {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+#c-cohesion-factor .cohesion-factor {
+  display: flex;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid 2px;
+  height: 250px;
+  width: 100%;
+}
+
+#c-cohesion-factor .cohesion-factor span {
+  padding: 0 10px;
 }
 /*# sourceMappingURL=global.css.map */
