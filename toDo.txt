@@ -20,8 +20,7 @@ Carte
 Sur ARCHITECTURE
 - installer environnement (voir Tuto)
 - revoir Cours VueSchool.io
-- créer arcitecture scss
-- 6 facteurs de cohésion vignette -> composants
+- gestion click sur vignette et style (couleur)
 - créer les routes vers les 6 composants
 
 
@@ -37,12 +36,15 @@ OK
 
 Sur GRAPHIQUE
 
-
-
-Sur ARCHITECTURE
-
 Histogramme
     - création du graphique (axes, appel des données json)
     - ajout du tooltip
     - ajout des unités
     - ajout des interactions au survol et clic bouton année
+    - modification police unité rem
+    - mise à jour police Jost
+
+
+Sur ARCHITECTURE
+    - créer arcitecture scss
+    - 6 facteurs de cohésion vignette -> composants
