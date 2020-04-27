@@ -42,6 +42,9 @@
     },
     "rules": {
       "no-console": "off"
+    },
+    "globals": {
+      "Vue": true
     }
   },
   "browserslist": [
