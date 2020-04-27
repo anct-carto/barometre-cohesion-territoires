@@ -2,7 +2,7 @@
 
 
 //path data
-const request = new Request("data/data_reg_v2.json");
+const request = new Request("assets/data_reg_v2.json");
 const unit = "%"
 
 
@@ -22,6 +22,8 @@ const numberFormat = new Intl.NumberFormat(
 //console.log(numberFormat.format(1213131.24141));
 //console.log(numberFormat.format(0.00004342));
 
+
+
 //opts for svg
 const opts = {
 	breakpoint: 620,
@@ -29,8 +31,8 @@ const opts = {
 	margin: {
 		top: 30,
 		right: 20,
-		bottom: 20,
-		left: 40
+		bottom: 30,
+		left: 55
     },
     get width() {
         return document.querySelector(this.container).clientWidth;

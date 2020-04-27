@@ -1,0 +1,53 @@
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      li{
+        border: solid 1px;
+        border-color: #BBC1C7;
+        min-width: 80px;
+        min-height: 28px;
+        line-height: 28px;
+
+      input[type="radio"] {
+        display: none;
+      }
+
+      input[type="radio"]:checked + label {
+        background: #595C5E;
+        color: #F0F7FF;
+      }
+
+      label{
+        display: block;
+        height: 100%;
+        font-size: 1.4rem;
+        cursor: pointer;
+
+      &:hover{
+        background: #CFE3DB;
+        }
+      }
+    }
+  }
+}
+
+.tooltip {
+    position: absolute;
+    min-width: 150px;
+    height: auto;
+    background: #fff;
+    padding: 3px 10px;
+    pointer-events: none;
+    opacity: 0;
+    border: solid 1px;
+    border-color: #BBC1C7;
+    border-radius: 10px;
+}
