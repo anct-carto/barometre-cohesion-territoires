@@ -20,6 +20,7 @@
   <cohesion-factor v-for="(item, index) in items"
                    :key="item.id"
                    :name="item.name"
+                   :id="`cohesion-factor-${item.id}`"
                    >
   </cohesion-factor>
 </div>
@@ -34,9 +35,9 @@
 
   <script type="text/x-template" id="cohesion-factor-template">
 
-    <div class="cohesion-factor">
+    <button class="cohesion-factor">
       <span class="title-cohesion-factor">{{name}}</span>
-    </div>
+    </button>
 
       
   </script>
