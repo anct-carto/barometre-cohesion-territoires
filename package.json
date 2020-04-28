@@ -44,7 +44,8 @@
       "no-console": "off"
     },
     "globals": {
-      "Vue": true
+      "Vue": true,
+      "d3":true
     }
   },
   "browserslist": [
