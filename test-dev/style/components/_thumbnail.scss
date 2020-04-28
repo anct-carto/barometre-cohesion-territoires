@@ -1,9 +1,9 @@
 #c-cohesion-factor{
     display: grid;
     justify-items: stretch;
-    column-gap: 20px;
-    row-gap: 15px;
-    max-width: 1600px;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    max-width: 160rem;
 
     @include sm{
         grid-template-columns: 1fr;
@@ -18,20 +18,48 @@
     }
 
     .cohesion-factor{
+        font-weight: 600;
         display: flex;
         font-size: 2.5rem;
         text-transform: uppercase;
         justify-content: center;
         align-items: center;
         text-align: center;
-        border: solid 2px;
-        height: 250px;
+        border: solid 0.2rem;
+        border-radius: 1rem;
+        height: 23rem;
         width: 100%;
+        color: white;
+        cursor: pointer;
 
         span{
-            padding: 0 10px;
+            padding: 0 1rem;
         }
 
+    }
+
+    #cohesion-factor-000{
+        background-color:$color-000;
+    }
+
+    #cohesion-factor-001{
+        background-color:$color-001;
+    }
+
+    #cohesion-factor-010{
+        background-color:$color-010;
+    }
+
+    #cohesion-factor-011{
+        background-color:$color-011;
+    }
+
+    #cohesion-factor-100{
+        background-color:$color-100;
+    }
+
+    #cohesion-factor-101{
+        background-color:$color-101;
     }
 }
 
