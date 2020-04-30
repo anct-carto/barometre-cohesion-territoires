@@ -22,6 +22,8 @@ Sur ARCHITECTURE
 - revoir Cours VueSchool.io
 - gestion click sur vignette et style (couleur)
 - créer les routes vers les 6 composants
+- créer structure indicateur
+- créer fichier configuration facteur de cohésion
 
 
 
