@@ -160,6 +160,13 @@
   unicode-range: U+000-5FF;
 }
 
+/* 
+$color-000: #1b9e77;
+$color-001: #d95f02;
+$color-010: #7570b3;
+$color-011: #e7298a;
+$color-100: #66a61e;
+$color-101: #e6ab02; */
 html {
   font-size: 62.5%;
   font-family: "Jost";
@@ -303,6 +310,7 @@ hr {
   column-gap: 2rem;
   row-gap: 1.5rem;
   max-width: 160rem;
+  margin: auto;
 }
 
 @media (min-width: 576px) {
@@ -344,26 +352,26 @@ hr {
 }
 
 #c-cohesion-factor #cohesion-factor-000 {
-  background-color: #de4e1c;
+  background-color: #e6ab02;
 }
 
 #c-cohesion-factor #cohesion-factor-001 {
-  background-color: #891344;
+  background-color: #d95f02;
 }
 
 #c-cohesion-factor #cohesion-factor-010 {
-  background-color: #004a7b;
+  background-color: #e7298a;
 }
 
 #c-cohesion-factor #cohesion-factor-011 {
-  background-color: #008d36;
+  background-color: #1b9e77;
 }
 
 #c-cohesion-factor #cohesion-factor-100 {
-  background-color: #88b226;
+  background-color: #7570b3;
 }
 
 #c-cohesion-factor #cohesion-factor-101 {
-  background-color: #e29b00;
+  background-color: #66a61e;
 }
 /*# sourceMappingURL=global.css.map */
