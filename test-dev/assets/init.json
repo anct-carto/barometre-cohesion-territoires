@@ -1,0 +1,160 @@
+{
+"cohesionFactor":[
+{
+  "id": "000",
+  "name": "Solidarité",
+  "theme":[
+    {
+      "id": "000",
+      "name":"Déséquilibres démographiques",
+      "indicateur": "Part de la population âgée de 65 ans ou plus"
+    },
+    {
+      "id": "001",
+      "name": "Accès au logement social",
+      "indicateur": "Rapport entre les demandes et les attributions de logements sociaux"
+    },
+    {
+      "id": "010",
+      "name": "Emploi",
+      "indicateur": "Taux de chômage de longue durée"
+    },
+    {
+      "id": "011",
+      "name": "Intensité de la politique sociale",
+      "indicateur": "Part des ménages bénéficiaires du RSA"
+    }
+  ]
+},
+{
+  "id": "001",
+  "name": "Qualité de vie",
+  "theme":[
+    {
+      "id":"000",
+      "name":"Revenu",
+      "indicateur": "Revenu disponible médian par UC"
+    },
+    {
+      "id":"001",
+      "name": "Santé",
+      "indicateur": "Taux de mortalité prématurée"
+    },
+    {
+      "id":"010",
+      "name": "Insertion des jeunes",
+      "indicateur": "Part des NEET"
+    },
+    {
+      "id":"011",
+      "name": "Qualité du logement",
+      "indicateur": "Taux de suroccupation des résidences principales"
+    },
+    {
+      "id":"100",
+      "name": "Sécurité",
+      "indicateur": "Nombre de cambriolage par habitant"
+    },
+    {
+      "id":"101",
+      "name": "Culture",
+      "indicateur": "Surface utile des établissements de lecture publique pour 1000 habitants"
+    }
+  ]
+},
+{
+  "id": "010",
+  "name": "Coopération entre les territoires",
+  "theme":[
+    {
+      "id":"000",
+      "name": "Intensité de l'intercommunalité",
+      "indicateur": "Coefficient d'intégration fiscale"
+    },
+    {
+      "id":"001",
+      "name": "Interdépendance liée à l'emploi",
+      "indicateur": "Taux de couverture à l'emploi"
+    },
+    {
+      "id":"010",
+      "name": "Interdépendance économique",
+      "indicateur": "Part des établissements dont le siège social se situe hors de la zone"
+    }
+  ]
+},
+{
+  "id": "011",
+  "name": "Capital social des territoires",
+  "theme":[
+    {
+      "id":"000",
+      "name": "Investissement social",
+      "indicateur": "Nombre de bénévoles en associations pour 1000 habitants"
+    },
+    {
+      "id":"001",
+      "name": "Participation aux élections",
+      "indicateur": "Taux de participation au premier tour des élections présidentielles"
+    }
+  ]
+},
+{
+  "id": "100",
+  "name": "Capacitation des territoires",
+  "theme":[
+    {
+      "id":"000",
+      "name": "Dynamisme démographique",
+      "indicateur": "Taux de croissance de la population"
+    },
+    {
+      "id":"001",
+      "name": "Dynamisme de l'emploi",
+      "indicateur": "Taux de croissance de l'emploi"
+    },
+    {
+      "id":"010",
+      "name": "Spécialisation fonctionnelle",
+      "indicateur": "Part des fonctions productives dans l'emploi"
+    },
+    {
+      "id":"011",
+      "name": "Attractivité économique",
+      "indicateur": "Taux de création d'entreprises"
+    },
+    {
+      "id":"100",
+      "name": "Couverture numérique",
+      "indicateur": "Part de la surface courverte en 4G par a minima deux opérateurs"
+    },
+    {
+      "id":"101",
+      "name": "Accès aux services",
+      "indicateur": "Temps moyen d'accès au panier de services de la vie courante"
+    },
+    {
+      "id":"110",
+      "name": "Qualité de formation de la main d'oeuvre",
+      "indicateur": "Part des 30-34 ans diplômé du supérieur"
+    }
+  ]
+},
+{
+  "id": "101",
+  "name": "Transition socio-environnementale",
+  "theme":[
+    {
+      "id":"000",
+      "name": "Attractivité résidentielle",
+      "indicateur": "Taux d'évolution annuel de la population"
+    },
+    {
+      "id":"001",
+      "name": "Préservation de l'environnement",
+      "indicateur": "Taux de croissance annuel moyen de l'artificialisation des sols"
+    }
+  ]
+}
+]
+}
