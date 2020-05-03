@@ -1,0 +1,43 @@
+#c-cohesion-factor{
+    display: grid;
+    justify-items: stretch;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    max-width: 160rem;
+    margin:auto;
+
+    @include sm{
+        grid-template-columns: 1fr;
+    }
+
+    @include md{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include lg{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cohesion-factor button{
+        font-weight: 600;
+        display: flex;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: solid 0.2rem;
+        border-radius: 1rem;
+        height: 23rem;
+        width: 100%;
+        color: white;
+        cursor: pointer;
+
+        span{
+            padding: 0 1rem;
+        }
+
+    }
+}
+
+

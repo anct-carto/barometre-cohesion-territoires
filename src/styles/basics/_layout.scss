@@ -1,0 +1,91 @@
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      li{
+        border: solid 1px;
+        border-color: #BBC1C7;
+        min-width: 8rem;
+        min-height: 2.8rem;
+        line-height: 2.8rem;
+
+      input[type="radio"] {
+        display: none;
+      }
+
+      input[type="radio"]:checked + label {
+        background: #595C5E;
+        color: #F0F7FF;
+      }
+
+      label{
+        display: block;
+        height: 100%;
+        font-size: 1.4rem;
+        cursor: pointer;
+
+      &:hover{
+        background: #CFE3DB;
+        }
+      }
+    }
+  }
+}
+
+.tooltip {
+  position: absolute;
+  min-width: 15rem;
+  height: auto;
+  background: #fff;
+  padding: 0.3rem 1rem;
+  pointer-events: none;
+  opacity: 0;
+  border: solid 0.1rem;
+  border-color: #BBC1C7;
+  border-radius: 1rem;
+}
+
+
+
+.router-link-exact-active {
+  color: red;
+}
+
+a{
+  color:black;
+}
+
+#nav, .layout-cards{
+  margin:1rem;
+}
+
+.cohesion-factor-000-color{
+  background-color:$color-000;
+}
+
+.cohesion-factor-001-color{
+  background-color:$color-001;
+}
+
+.cohesion-factor-010-color{
+  background-color:$color-010;
+}
+
+.cohesion-factor-011-color{
+  background-color:$color-011;
+}
+
+.cohesion-factor-100-color{
+  background-color:$color-100;
+}
+
+.cohesion-factor-101-color{
+  background-color:$color-101;
+}

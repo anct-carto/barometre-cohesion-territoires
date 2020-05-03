@@ -1,0 +1,61 @@
+#h-statistical-indicator{
+  margin-bottom: 1rem;
+
+
+div{
+  font-weight: 600;
+          display: flex;
+          font-size: 2.2rem;
+          text-transform: uppercase;
+          padding: 0.1rem 1rem;
+          width: 100%;
+          color: white;
+          margin-bottom: 1.2rem;
+          max-width: 160rem;
+          margin:auto;
+        }
+      }
+
+
+#c-statistical-indicator{
+  display: grid;
+  justify-items: stretch;
+  column-gap: 2rem;
+  row-gap: 1.5rem;
+  max-width: 160rem;
+  margin:auto;
+  grid-auto-rows: 1fr;
+
+  @include sm{
+      grid-template-columns: 1fr;
+  }
+
+  @include md{
+      grid-template-columns: 1fr 1fr;
+  }
+
+  @include lg{
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
+.statistical-indicator{
+  border: solid 1px;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+
+  #statistical-indicator-top{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: .5rem;
+  }
+
+  #statistical-indicator-bottom{
+
+    div p{
+      font-weight: 500;
+    }
+  }
+}
