@@ -24,9 +24,14 @@ Sur ARCHITECTURE
 - créer les routes vers les 6 composants
 - créer structure indicateur
 - créer fichier configuration facteur de cohésion
-
-
-
+- créer fichier liste des indicateurs
+- ajouter la possiblité d'afficher tous les indicateurs sur une page
+- ajouter millésime en bas à droite vignette indicateurs
+- ajouter sur les vignettes icone indicateur et enjeu
+- ajouter effet au survol pour accéder à l'indicateur
+- créer bouton retour
+- découpler barre de titre facteur de cohésion
+- créer le template du menu
 
 
 
