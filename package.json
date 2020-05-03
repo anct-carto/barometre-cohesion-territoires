@@ -22,6 +22,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.0",
     "prettier": "^2.0.5",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
@@ -45,7 +46,7 @@
     },
     "globals": {
       "Vue": true,
-      "d3":true
+      "d3": true
     }
   },
   "browserslist": [
