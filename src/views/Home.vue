@@ -1,6 +1,8 @@
 <template>
-  <div class="layout-cards">
-    <TheCohesionFactorCard />
+  <div>
+    <div class="l-base">
+      <TheCohesionFactorCard />
+    </div>
   </div>
 </template>
 

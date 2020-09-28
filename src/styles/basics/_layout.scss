@@ -1,43 +1,4 @@
-.button {
-    text-align: center;
-    text-transform: uppercase;
-    
 
-    ul {
-      list-style-type: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
-      li{
-        border: solid 1px;
-        border-color: #BBC1C7;
-        min-width: 8rem;
-        min-height: 2.8rem;
-        line-height: 2.8rem;
-
-      input[type="radio"] {
-        display: none;
-      }
-
-      input[type="radio"]:checked + label {
-        background: #595C5E;
-        color: #F0F7FF;
-      }
-
-      label{
-        display: block;
-        height: 100%;
-        font-size: 1.4rem;
-        cursor: pointer;
-
-      &:hover{
-        background: #CFE3DB;
-        }
-      }
-    }
-  }
-}
 
 .tooltip {
   position: absolute;
@@ -62,10 +23,6 @@ a{
   color:black;
 }
 
-#nav, .layout-cards{
-  margin:1rem;
-}
-
 .cohesion-factor-000-color{
   background-color:$color-000;
 }
@@ -88,4 +45,19 @@ a{
 
 .cohesion-factor-101-color{
   background-color:$color-101;
+}
+
+.l-base{
+  margin: 0 1rem;
+}
+
+
+.slide-right-enter {
+  transform: translate(10px, 10px);
+  opacity: 0;
+}
+
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all 2.2s ease;
 }

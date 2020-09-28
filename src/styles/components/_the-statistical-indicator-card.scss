@@ -1,0 +1,51 @@
+
+      #l-statistical-indicator-card{
+        display: grid;
+        justify-items: stretch;
+        column-gap: 2rem;
+        row-gap: 1.5rem;
+        max-width: 160rem;
+        margin:auto;
+        grid-auto-rows: 1fr;
+      
+        @include sm{
+            grid-template-columns: 1fr;
+        }
+      
+        @include md{
+            grid-template-columns: 1fr 1fr;
+        }
+      
+        @include lg{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+      }
+      
+
+
+
+.statistical-indicator-card{
+  border: solid 1px;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+
+
+  #statistical-indicator-content-card{
+    height: 100%;
+
+  #statistical-indicator-top-card{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: .5rem;
+  }
+
+  #statistical-indicator-bottom-card{
+
+    div p{
+      font-weight: 500;
+    }
+}
+}
+
+}
+
