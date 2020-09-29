@@ -1,5 +1,5 @@
 <template>
-  <div id="c-cohesion-factor">
+  <div class="l-card" id="l-cohesion-factor-card">
     <div
       class="cohesion-factor"
       v-for="cohesionFactor in cohesionFactors"
@@ -12,11 +12,15 @@
           params: { cohesionFactorSlug: cohesionFactor.slug },
         }"
       >
-        <button :class="`cohesion-factor-${cohesionFactor.id}-color`">
+        <button
+          :class="`cohesion-factor-${cohesionFactor.id}-color`"
+          class="cohesion-factor-card"
+        >
           <span class="title-cohesion-factor">{{ cohesionFactor.name }}</span>
         </button>
       </router-link>
     </div>
+      <router-view />
   </div>
 </template>
 

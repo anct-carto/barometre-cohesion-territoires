@@ -1,191 +1,191 @@
 {
-"cohesionFactors":[
-{
-  "id": "000",
-  "name": "Solidarité",
-  "slug": "solidarite",
-  "statisticalIndicators":[
-    {
-      "id": "000",
-      "theme":"Déséquilibres démographiques",
-      "name": "Part de la population âgée de 65 ans ou plus",
-      "challenge": "Adapter les territoires aux challengex du vieillissement de la population."
-    },
-    {
-      "id": "001",
-      "theme": "Accès au logement social",
-      "name": "Rapport entre les demandes et les attributions de logements sociaux",
-      "challenge": "Permettre, dans tous les territoires, l’accès au parc de logements sociaux pour les ménages éligibles."
-    },
-    {
-      "id": "010",
-      "theme": "Emploi",
-      "name": "Taux de chômage de longue durée",
-      "challenge": "Réduire la part du chômage."
-    },
-    {
-      "id": "011",
-      "theme": "Intensité de la politique sociale",
-      "name": "Part des ménages bénéficiaires du RSA",
-      "challenge": "Assurer un socle de base permettant l’émancipation de chacun."
-    }
+  "cohesionFactors":[
+  {
+    "id": "000",
+    "name": "Solidarité",
+    "slug": "solidarite",
+    "statisticalIndicators":[
+      {
+        "id": "000000",
+        "theme":"Déséquilibres démographiques",
+        "name": "Part de la population âgée de 65 ans ou plus",
+        "challenge": "Adapter les territoires aux challenges du vieillissement de la population."
+      },
+      {
+        "id": "000001",
+        "theme": "Accès au logement social",
+        "name": "Rapport entre les demandes et les attributions de logements sociaux",
+        "challenge": "Permettre, dans tous les territoires, l’accès au parc de logements sociaux pour les ménages éligibles."
+      },
+      {
+        "id": "000010",
+        "theme": "Emploi",
+        "name": "Taux de chômage de longue durée",
+        "challenge": "Réduire la part du chômage."
+      },
+      {
+        "id": "000011",
+        "theme": "Intensité de la politique sociale",
+        "name": "Part des ménages bénéficiaires du RSA",
+        "challenge": "Assurer un socle de base permettant l’émancipation de chacun."
+      }
+    ]
+  },
+  {
+    "id": "001",
+    "name": "Qualité de vie",
+    "slug":"qualite-de-vie",
+    "statisticalIndicators":[
+      {
+        "id":"001000",
+        "theme":"Revenu",
+        "name": "Revenu disponible médian par UC",
+        "challenge": "Permettre à tous, dans tous les territoires, d’avoir un niveau de vie satisfaisant, notamment en résorbant la précarité."
+      },
+      {
+        "id":"001001",
+        "theme": "Santé",
+        "name": "Taux de mortalité prématurée",
+        "challenge": "Permettre à tous, dans tous les territoires, de disposer des mêmes chances de vivre en bonne santé."
+      },
+      {
+        "id":"001010",
+        "theme": "Insertion des jeunes",
+        "name": "Part des 15-24 ans ni en emploi, ni en études, ni en formation (NEET)",
+        "challenge": "Améliorer l’accès à la formation et à l’emploi pour une meilleure inclusion sociale."
+      },
+      {
+        "id":"001011",
+        "theme": "Qualité du logement",
+        "name": "Taux de suroccupation des résidences principales",
+        "challenge": "Améliorer les conditions de vie de la population, en permettant à chaque ménage de disposer d’un logement adapté à ses besoins."
+      },
+      {
+        "id":"001100",
+        "theme": "Sécurité",
+        "name": "Nombre de cambriolage pour 1000 logements",
+        "challenge": "Assurer auprès de l’ensemble des populations et des territoires la meilleure protection possible des biens matériels."
+      },
+      {
+        "id":"001101",
+        "theme": "Culture",
+        "name": "Surface utile des établissements de lecture publique pour 1000 habitants",
+        "challenge" : "Permettre à tous, dans tous les territoires, d’accéder à une offre de lecture publique satisfaisante."
+      }
+    ]
+  },
+  {
+    "id": "010",
+    "name": "Coopération entre les territoires",
+    "slug": "cooperation-entre-les-territoires",
+    "statisticalIndicators":[
+      {
+        "id":"010000",
+        "theme": "Intensité de l'intercommunalité",
+        "name": "Coefficient d'intégration fiscale moyen des EPCI",
+        "challenge": "Favoriser les mutualisations et coordinations entre collectivités locales."
+      },
+      {
+        "id":"010001",
+        "theme": "Interdépendance liée à l'emploi",
+        "name": "Taux de couverture à l'emploi",
+        "challenge": "Rapprocher lieux de vie et lieux de travail (y compris via le télétravail)."
+      },
+      {
+        "id":"010010",
+        "theme": "Interdépendance économique",
+        "name": "Part des établissements dont le siège social se situe hors de la zone",
+        "challenge": "Favoriser les coopérations de nature économique entre les territoires."
+      }
+    ]
+  },
+  {
+    "id": "011",
+    "name": "Capital social des territoires",
+    "slug": "capital-social-des-territoires",
+    "statisticalIndicators":[
+      {
+        "id":"011000",
+        "theme": "Investissement social",
+        "name": "Nombre de bénévoles en associations pour 1000 habitants",
+        "challenge": "Développer le goût du vivre ensemble et de l’engagement au service des autres."
+      },
+      {
+        "id":"011001",
+        "theme": "Participation aux élections",
+        "name": "Taux de participation au premier tour des élections présidentielles",
+        "challenge": "Impliquer l’ensemble des habitants du pays dans la vie citoyenne et démocratique."
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "name": "Capacitation des territoires",
+    "slug": "capacitation-des-territoires",
+    "statisticalIndicators":[
+      {
+        "id":"100000",
+        "theme": "Dynamisme démographique",
+        "name": "Taux de croissance de la population",
+        "challenge": "Accompagner la décroissance de certains territoires et gérer la pression démographique que d’autres connaissent." 
+        
+      },
+      {
+        "id":"100001",
+        "theme": "Dynamisme de l'emploi",
+        "name": "Taux de croissance de l'emploi",
+        "challenge": "Favoriser les dynamiques d'entrainement entre les territoires"
+      },
+      {
+        "id":"100010",
+        "theme": "Spécialisation fonctionnelle",
+        "name": "Part des fonctions productives dans l'emploi",
+        "challenge": "Favoriser la complémentarité entre les territoires orientés vers l’économie productive et ceux orientés vers l’économie résidentielle."
+      },
+      {
+        "id":"100011",
+        "theme": "Attractivité économique",
+        "name": "Taux de création d'entreprises",
+        "challenge": "Favoriser l’entreprenariat dans tous les territoires."
+      },
+      {
+        "id":"100100",
+        "theme": "Couverture numérique",
+        "name": "Part de la surface courverte en 4G par a minima deux opérateurs",
+        "challenge": "Permettre à tous, dans tous les territoires, d’avoir accès à une connexion à Internet de qualité."
+      },
+      {
+        "id":"100101",
+        "theme": "Accès aux services",
+        "name": "Temps moyen d'accès au panier de services de la vie courante",
+        "challenge": "Permettre à tous, dans tous les territoires, l’accès aux équipements et aux services."
+      },
+      {
+        "id":"100110",
+        "theme": "Qualité de formation de la main d'oeuvre",
+        "name": "Part des 30-34 ans diplômé du supérieur",
+        "challenge": "Assurer à tous les jeunes l’accès à l’enseignement supérieur."
+      }
+    ]
+  },
+  {
+    "id": "101",
+    "name": "Transition socio-environnementale",
+    "slug": "transition-socio-environnementale",
+    "statisticalIndicators":[
+      {
+        "id":"101000",
+        "theme": "Attractivité résidentielle",
+        "name": "Taux d'évolution annuel de la population",
+        "challenge": "Veiller au développement soutenable des territoires les plus attractifs et à la qualité de vie dans l’ensemble des territoires."
+      },
+      {
+        "id":"101001",
+        "theme": "Préservation de l'environnement",
+        "name": "Taux de croissance annuel moyen de l'artificialisation des sols",
+        "challenge": "Réduire le rythme de l’artificialisation des sols, en préservant les espaces naturels et agricoles."
+      }
+    ]
+  }
   ]
-},
-{
-  "id": "001",
-  "name": "Qualité de vie",
-  "slug":"qualite-de-vie",
-  "statisticalIndicators":[
-    {
-      "id":"000",
-      "theme":"Revenu",
-      "name": "Revenu disponible médian par UC",
-      "challenge": "Permettre à tous, dans tous les territoires, d’avoir un niveau de vie satisfaisant, notamment en résorbant la précarité."
-    },
-    {
-      "id":"001",
-      "theme": "Santé",
-      "name": "Taux de mortalité prématurée",
-      "challenge": "Permettre à tous, dans tous les territoires, de disposer des mêmes chances de vivre en bonne santé."
-    },
-    {
-      "id":"010",
-      "theme": "Insertion des jeunes",
-      "name": "Part des 15-24 ans ni en emploi, ni en études, ni en formation (NEET)",
-      "challenge": "Améliorer l’accès à la formation et à l’emploi pour une meilleure inclusion sociale."
-    },
-    {
-      "id":"011",
-      "theme": "Qualité du logement",
-      "name": "Taux de suroccupation des résidences principales",
-      "challenge": "Améliorer les conditions de vie de la population, en permettant à chaque ménage de disposer d’un logement adapté à ses besoins."
-    },
-    {
-      "id":"100",
-      "theme": "Sécurité",
-      "name": "Nombre de cambriolage pour 1000 logements",
-      "challenge": "Assurer auprès de l’ensemble des populations et des territoires la meilleure protection possible des biens matériels."
-    },
-    {
-      "id":"101",
-      "theme": "Culture",
-      "name": "Surface utile des établissements de lecture publique pour 1000 habitants",
-      "challenge" : "Permettre à tous, dans tous les territoires, d’accéder à une offre de lecture publique satisfaisante."
-    }
-  ]
-},
-{
-  "id": "010",
-  "name": "Coopération entre les territoires",
-  "slug": "cooperation-entre-les-territoires",
-  "statisticalIndicators":[
-    {
-      "id":"000",
-      "theme": "Intensité de l'intercommunalité",
-      "name": "Coefficient d'intégration fiscale moyen des EPCI",
-      "challenge": "Favoriser les mutualisations et coordinations entre collectivités locales."
-    },
-    {
-      "id":"001",
-      "theme": "Interdépendance liée à l'emploi",
-      "name": "Taux de couverture à l'emploi",
-      "challenge": "Rapprocher lieux de vie et lieux de travail (y compris via le télétravail)."
-    },
-    {
-      "id":"010",
-      "theme": "Interdépendance économique",
-      "name": "Part des établissements dont le siège social se situe hors de la zone",
-      "challenge": "Favoriser les coopérations de nature économique entre les territoires."
-    }
-  ]
-},
-{
-  "id": "011",
-  "name": "Capital social des territoires",
-  "slug": "capital-social-des-territoires",
-  "statisticalIndicators":[
-    {
-      "id":"000",
-      "theme": "Investissement social",
-      "name": "Nombre de bénévoles en associations pour 1000 habitants",
-      "challenge": "Développer le goût du vivre ensemble et de l’engagement au service des autres."
-    },
-    {
-      "id":"001",
-      "theme": "Participation aux élections",
-      "name": "Taux de participation au premier tour des élections présidentielles",
-      "challenge": "Impliquer l’ensemble des habitants du pays dans la vie citoyenne et démocratique."
-    }
-  ]
-},
-{
-  "id": "100",
-  "name": "Capacitation des territoires",
-  "slug": "capacitation-des-territoires",
-  "statisticalIndicators":[
-    {
-      "id":"000",
-      "theme": "Dynamisme démographique",
-      "name": "Taux de croissance de la population",
-      "challenge": "Accompagner la décroissance de certains territoires et gérer la pression démographique que d’autres connaissent." 
-      
-    },
-    {
-      "id":"001",
-      "theme": "Dynamisme de l'emploi",
-      "name": "Taux de croissance de l'emploi",
-      "challenge": "Favoriser les dynamiques d'entrainement entre les territoires"
-    },
-    {
-      "id":"010",
-      "theme": "Spécialisation fonctionnelle",
-      "name": "Part des fonctions productives dans l'emploi",
-      "challenge": "Favoriser la complémentarité entre les territoires orientés vers l’économie productive et ceux orientés vers l’économie résidentielle."
-    },
-    {
-      "id":"011",
-      "theme": "Attractivité économique",
-      "name": "Taux de création d'entreprises",
-      "challenge": "Favoriser l’entreprenariat dans tous les territoires."
-    },
-    {
-      "id":"100",
-      "theme": "Couverture numérique",
-      "name": "Part de la surface courverte en 4G par a minima deux opérateurs",
-      "challenge": "Permettre à tous, dans tous les territoires, d’avoir accès à une connexion à Internet de qualité."
-    },
-    {
-      "id":"101",
-      "theme": "Accès aux services",
-      "name": "Temps moyen d'accès au panier de services de la vie courante",
-      "challenge": "Permettre à tous, dans tous les territoires, l’accès aux équipements et aux services."
-    },
-    {
-      "id":"110",
-      "theme": "Qualité de formation de la main d'oeuvre",
-      "name": "Part des 30-34 ans diplômé du supérieur",
-      "challenge": "Assurer à tous les jeunes l’accès à l’enseignement supérieur."
-    }
-  ]
-},
-{
-  "id": "101",
-  "name": "Transition socio-environnementale",
-  "slug": "transition-socio-environnementale",
-  "statisticalIndicators":[
-    {
-      "id":"000",
-      "theme": "Attractivité résidentielle",
-      "name": "Taux d'évolution annuel de la population",
-      "challenge": "Veiller au développement soutenable des territoires les plus attractifs et à la qualité de vie dans l’ensemble des territoires."
-    },
-    {
-      "id":"001",
-      "theme": "Préservation de l'environnement",
-      "name": "Taux de croissance annuel moyen de l'artificialisation des sols",
-      "challenge": "Réduire le rythme de l’artificialisation des sols, en préservant les espaces naturels et agricoles."
-    }
-  ]
-}
-]
 }

@@ -1,0 +1,237 @@
+{
+    "statisticalIndicators":[
+    {
+        "id": "0000001",
+        "data": [
+            {
+                "year": "2011",
+                "value": 17.1,
+                "regions":[
+                    {
+                        "codreg": "01",
+                        "libreg": "GLP",
+                        "libreg_long": "Guadeloupe",
+                        "value": 14.2
+                    },
+                    {
+                        "codreg": "02",
+                        "libreg": "MTQ",
+                        "libreg_long": "Martinique",
+                        "value": 15.8
+                    },
+                    {
+                        "codreg": "03",
+                        "libreg": "GUF",
+                        "libreg_long": "Guyane française",
+                        "value": 4.3
+                    },
+                    {
+                        "codreg": "04",
+                        "libreg": "REU",
+                        "libreg_long": "La Réunion",
+                        "value": 8.8
+                    },
+                    {
+                        "codreg": "06",
+                        "libreg": "MYT",
+                        "libreg_long": "Mayotte",
+                        "value": null
+                    },
+                    {
+                        "codreg": "11",
+                        "libreg": "IDF",
+                        "libreg_long": "Île-de-France",
+                        "value": 13.0
+                    },
+                    {
+                        "codreg": "24",
+                        "libreg": "CVL",
+                        "libreg_long": "Centre-Val de Loire",
+                        "value": 19.1
+                    },
+                    {
+                        "codreg": "27",
+                        "libreg": "BFC",
+                        "libreg_long": "Bourgogne-Franche-Comté",
+                        "value": 19.3
+                    },
+                    {
+                        "codreg": "28",
+                        "libreg": "NOR",
+                        "libreg_long": "Normandie",
+                        "value": 17.7
+                    },
+                    {
+                        "codreg": "32",
+                        "libreg": "HDF",
+                        "libreg_long": "Hauts-de-France",
+                        "value": 15.0
+                    },
+                    {
+                        "codreg": "44",
+                        "libreg": "GES",
+                        "libreg_long": "Grand Est",
+                        "value": 16.9
+                    },
+                    {
+                        "codreg": "52",
+                        "libreg": "PDL",
+                        "libreg_long": "Pays de la Loire",
+                        "value": 17.5
+                    },
+                    {
+                        "codreg": "53",
+                        "libreg": "BRE",
+                        "libreg_long": "Bretagne",
+                        "value": 18.9
+                    },
+                    {
+                        "codreg": "75",
+                        "libreg": "NAQ",
+                        "libreg_long": "Nouvelle-Aquitaine",
+                        "value": 20.6
+                    },
+                    {
+                        "codreg": "76",
+                        "libreg": "OCC",
+                        "libreg_long": "Occitanie",
+                        "value": 19.7
+                    },
+                    {
+                        "codreg": "84",
+                        "libreg": "ARA",
+                        "libreg_long": "Auvergne-Rhône-Alpes",
+                        "value": 17.2
+                    },
+                    {
+                        "codreg": "93",
+                        "libreg": "PAC",
+                        "libreg_long": "Provence-Alpes-Côte d'Azur",
+                        "value": 20.1
+                    },
+                    {
+                        "codreg": "94",
+                        "libreg": "COR",
+                        "libreg_long": "Corse",
+                        "value": 20.5
+                    }
+                ]
+            },
+            {
+                "year": "2016",
+                "value": 19.0,
+                "regions":[
+                    {
+                        "codreg": "01",
+                        "libreg": "GLP",
+                        "libreg_long": "Guadeloupe",
+                        "value": 17.1
+                    },
+                    {
+                        "codreg": "02",
+                        "libreg": "MTQ",
+                        "libreg_long": "Martinique",
+                        "value": 19.0
+                    },
+                    {
+                        "codreg": "03",
+                        "libreg": "GUF",
+                        "libreg_long": "Guyane française",
+                        "value": 4.9
+                    },
+                    {
+                        "codreg": "04",
+                        "libreg": "REU",
+                        "libreg_long": "La Réunion",
+                        "value": 10.6
+                    },
+                    {
+                        "codreg": "06",
+                        "libreg": "MYT",
+                        "libreg_long": "Mayotte",
+                        "value": null
+                    },
+                    {
+                        "codreg": "11",
+                        "libreg": "IDF",
+                        "libreg_long": "Île-de-France",
+                        "value": 14.4
+                    },
+                    {
+                        "codreg": "24",
+                        "libreg": "CVL",
+                        "libreg_long": "Centre-Val de Loire",
+                        "value": 21.4
+                    },
+                    {
+                        "codreg": "27",
+                        "libreg": "BFC",
+                        "libreg_long": "Bourgogne-Franche-Comté",
+                        "value": 21.8
+                    },
+                    {
+                        "codreg": "28",
+                        "libreg": "NOR",
+                        "libreg_long": "Normandie",
+                        "value": 20.0
+                    },
+                    {
+                        "codreg": "32",
+                        "libreg": "HDF",
+                        "libreg_long": "Hauts-de-France",
+                        "value": 17.0
+                    },
+                    {
+                        "codreg": "44",
+                        "libreg": "GES",
+                        "libreg_long": "Grand Est",
+                        "value": 19.0
+                    },
+                    {
+                        "codreg": "52",
+                        "libreg": "PDL",
+                        "libreg_long": "Pays de la Loire",
+                        "value": 19.5
+                    },
+                    {
+                        "codreg": "53",
+                        "libreg": "BRE",
+                        "libreg_long": "Bretagne",
+                        "value": 21.1
+                    },
+                    {
+                        "codreg": "75",
+                        "libreg": "NAQ",
+                        "libreg_long": "Nouvelle-Aquitaine",
+                        "value": 22.7
+                    },
+                    {
+                        "codreg": "76",
+                        "libreg": "OCC",
+                        "libreg_long": "Occitanie",
+                        "value": 21.7
+                    },
+                    {
+                        "codreg": "84",
+                        "libreg": "ARA",
+                        "libreg_long": "Auvergne-Rhône-Alpes",
+                        "value": 19.0
+                    },
+                    {
+                        "codreg": "93",
+                        "libreg": "PAC",
+                        "libreg_long": "Provence-Alpes-Côte d'Azur",
+                        "value": 22.1
+                    },
+                    {
+                        "codreg": "94",
+                        "libreg": "COR",
+                        "libreg_long": "Corse",
+                        "value": 22.5
+                    }
+                ]
+            }
+        ]
+    }
+]
+}

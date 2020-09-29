@@ -1,0 +1,59 @@
+#l-statistical-indicator-content{
+  max-width: 160rem;
+  margin:auto;
+
+    #stastical-indicator-explanation-content{
+      font-style: italic; 
+      font-size: 1.8rem;
+      margin-bottom: 2.5rem;
+    }
+
+
+        h2{
+          max-width: 96rem;
+          text-align: center;
+          margin: 0 auto;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+        }
+}
+
+
+h1{
+  max-width: 160rem;
+  margin:auto;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+section.c-all-niv{
+  display: grid;
+  justify-items: stretch;
+  column-gap: 2rem;
+  row-gap: 1.5rem;
+  max-width: 160rem;
+  margin:auto;
+
+  @include md{
+    grid-template-columns: 400px 1fr;
+  }
+  @include lg{
+    grid-template-columns: 400px 1fr;
+}
+
+}
+
+
+.c-graph-niv div{
+position: sticky;
+top: 10vh;
+width: 100%;
+
+max-height: 638px;
+min-height: 452px;
+min-width: inherit;
+max-width: inherit;
+height: 75vh;
+border: solid 1px;
+}

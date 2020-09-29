@@ -4,6 +4,7 @@ A FAIRE
 
 
 Sur GRAPHIQUE
+    - intégration d3 sur vue
 
 Histogramme
     - coin rectangle arrondi
@@ -16,24 +17,16 @@ Carte
     - graphique boite à moustache
 
 
-
 Sur ARCHITECTURE
-- installer environnement (voir Tuto)
-- revoir Cours VueSchool.io
-- gestion click sur vignette et style (couleur)
-- créer les routes vers les 6 composants
 - créer structure indicateur
-- créer fichier configuration facteur de cohésion
-- créer fichier liste des indicateurs
-- ajouter la possiblité d'afficher tous les indicateurs sur une page
 - ajouter millésime en bas à droite vignette indicateurs
 - ajouter sur les vignettes icone indicateur et enjeu
 - ajouter effet au survol pour accéder à l'indicateur
 - créer bouton retour
 - découpler barre de titre facteur de cohésion
 - créer le template du menu
-
-
+- créer input recherche tous les indicateurs
+- ajouter condition v-if text niveau 3
 
 
 
@@ -55,3 +48,9 @@ Histogramme
 Sur ARCHITECTURE
     - créer arcitecture scss
     - 6 facteurs de cohésion vignette -> composants
+    - installer environnement
+    - gestion click sur vignette et style (couleur)
+    - créer les routes vers les 6 composants
+    - créer fichier configuration facteur de cohésion
+    - créer fichier liste des indicateurs
+    - ajouter la possiblité d'afficher tous les indicateurs sur une page

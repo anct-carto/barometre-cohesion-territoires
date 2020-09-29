@@ -8,9 +8,6 @@
 </template>
 
 <script>
-//init.json
-
-
 export default {
   name: "TheCohesionFactorHeader",
   data() {
@@ -18,10 +15,9 @@ export default {
   },
   props: {
     cohesionFactor: {
-      type: String,
+      type: Object,
       required: true,
     },
   },
-
 };
 </script>
